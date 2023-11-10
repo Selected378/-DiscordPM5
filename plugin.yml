@@ -1,0 +1,8 @@
+name: sDiscord
+author: Selected378
+main: discord\Main
+version: 1.0.0
+api: 5.0.0
+permissions:
+  discord.cmd:
+    default: true
