@@ -10,7 +10,7 @@ use pocketmine\player\Player;
 
 class DiscordCommand extends Command {
     /** @noinspection PhpUnused */
-    private $plugin;
+    protected $plugin;
 
     public function __construct(Main $plugin) {
         parent::__construct("discord", "avoir le ds", "/discord");
