@@ -9,7 +9,7 @@ use pocketmine\lang\Translatable;
 use pocketmine\player\Player;
 
 class DiscordCommand extends Command {
-
+    /** @noinspection PhpUnused */
     private $plugin;
 
     public function __construct(Main $plugin) {
